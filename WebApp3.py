@@ -10,9 +10,9 @@ import sys
 MODEL_PATH = "C:/Users/Sherylle Rose/Desktop/rfmodeloct26/rf_model_final.pkl"
 VECTORIZER_PATH = "C:/Users/Sherylle Rose/Desktop/rfmodeloct26/vectorizer_final.pkl"
 
-HOME_LOGO_PATH = "C:/Users/Sherylle Rose/homeplogo.png"
-SIDEBAR_LOGO_PATH = "C:\\Users\\Sherylle Rose\\ccitlogo.png"
-BACKGROUND_IMAGE_PATH = "C:\\Users\\Sherylle Rose\\bg_final.png"
+HOME_LOGO_PATH = "homeplogo.png"
+SIDEBAR_LOGO_PATH = "ccitlogo.png"
+BACKGROUND_IMAGE_PATH = "bg_final.png"
 
 LIGHT_BG = "#e8f3f8"
 DARK_PRIMARY = "#1f3a52"
@@ -475,4 +475,5 @@ st.markdown("""
 footer {visibility: hidden;}
 header {visibility: hidden;}
 </style>
+
 """, unsafe_allow_html=True)
