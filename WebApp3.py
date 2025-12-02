@@ -8,7 +8,7 @@ import altair as alt
 import sys
 
 MODEL_PATH = "C:/Users/Sherylle Rose/Desktop/rfmodeloct26/rf_model_final.pkl"
-VECTOR_PATH = "C:/Users/Sherylle Rose/Desktop/rfmodeloct26/vectorizer_final.pkl"
+VECTORIZER_PATH = "C:/Users/Sherylle Rose/Desktop/rfmodeloct26/vectorizer_final.pkl"
 
 VECTOR_FILE_ID = "1clQI6rendrGCOsC9bQGYHg_JRmqiGhWz"
 # https://drive.google.com/file/d/1clQI6rendrGCOsC9bQGYHg_JRmqiGhWz/view?usp=drive_link
@@ -483,6 +483,4 @@ st.markdown("""
 footer {visibility: hidden;}
 header {visibility: hidden;}
 </style>
-
 """, unsafe_allow_html=True)
-
